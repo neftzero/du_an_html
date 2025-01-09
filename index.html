@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CLB Ngoai Khoa Vinschool</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="index.css">
+  <title>CLB Ngoai Khoa Vinschool</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -25,14 +25,6 @@
       <i class="fa fa-search"></i>
     </a>
   </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-  </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
@@ -49,46 +41,57 @@
   <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
     qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-    </div>
 
+<!-- Gallery with alternating Text and Image Layout -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">CLUB INFO GALLERY</h3>
 
-<!-- Second Parallax Section -->
-    <div class="parallax bgimg-2">
-        <div class="parallax-text">
-            <span>SPORTS CLUB</span>
-        </div>
-    </div>
-
-<!-- Third Parallax Section -->
-    <div class="parallax bgimg-3">
-        <div class="parallax-text">
-            <span>ARTS CLUB</span>
-        </div>
-    </div>
-
-<!-- Fourth Parallax Section -->
-    <div class="parallax bgimg-4">
-        <div class="parallax-text">
-            <span>ACADEMIC CLUB</span>
-        </div>
-    </div>
-
-
-
-    
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+  <!-- First Set: Image on Left, Text on Right -->
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px;">
+      <img src="https://via.placeholder.com/800x500" alt="Placeholder Image" style="width: 50%; height: 350px; object-fit: cover; border-radius: 8px;">
+      <div style="width: 50%; padding-left: 20px;">
+          <h2>Heading 1</h2>
+          <p>This is some info about the club's activities. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
   </div>
 
+  <!-- Second Set: Text on Left, Image on Right -->
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px; flex-direction: row-reverse;">
+      <img src="https://via.placeholder.com/800x500" alt="Placeholder Image" style="width: 50%; height: 350px; object-fit: cover; border-radius: 8px;">
+      <div style="width: 50%; padding-right: 20px;">
+          <h2>Heading 2</h2>
+          <p>This section contains more club info. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+  </div>
 
+  <!-- Third Set: Image on Left, Text on Right -->
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px;">
+      <img src="https://via.placeholder.com/800x500" alt="Placeholder Image" style="width: 50%; height: 350px; object-fit: cover; border-radius: 8px;">
+      <div style="width: 50%; padding-left: 20px;">
+          <h2>Heading 3</h2>
+          <p>More details about the club. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+  </div>
+
+  <!-- Fourth Set: Text on Left, Image on Right -->
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px; flex-direction: row-reverse;">
+      <img src="https://via.placeholder.com/800x500" alt="Placeholder Image" style="width: 50%; height: 350px; object-fit: cover; border-radius: 8px;">
+      <div style="width: 50%; padding-right: 20px;">
+          <h2>Heading 4</h2>
+          <p>More info on events and activities. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+  </div>
+
+  <!-- Fifth Set: Image on Left, Text on Right -->
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px;">
+      <img src="https://via.placeholder.com/800x500" alt="Placeholder Image" style="width: 50%; height: 350px; object-fit: cover; border-radius: 8px;">
+      <div style="width: 50%; padding-left: 20px;">
+          <h2>Heading 5</h2>
+          <p>Final details about the club. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+  </div>
+
+</div>
 
 </body>
 </html>
