@@ -13,6 +13,21 @@
   background-size: cover;
 }
 
+
+
+/*Parallax*/
+.parallax {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('image_1.jpg');
@@ -21,7 +36,7 @@
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("image_2.jgp");
+  background-image: url("image_2.jpg");
   min-height: 400px;
 }
 
@@ -30,6 +45,9 @@
   background-image: url("/w3images/parallax3.jpg");
   min-height: 400px;
 }
+
+
+
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
