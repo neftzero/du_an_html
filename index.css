@@ -1,1 +1,8 @@
-
+.banner {
+    background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    text-align: center !important;
+    color: darkred !important;
+}
